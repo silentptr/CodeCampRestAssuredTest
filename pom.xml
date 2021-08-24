@@ -13,6 +13,7 @@
         <maven.compiler.target>16</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <rest-assured.version>4.4.0</rest-assured.version>
         <junit.jupiter.version>5.7.2</junit.jupiter.version>
     </properties>
 
@@ -20,7 +21,7 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>4.4.0</version>
+            <version>${rest-assured.version}</version>
             <scope>test</scope>
         </dependency>
 
